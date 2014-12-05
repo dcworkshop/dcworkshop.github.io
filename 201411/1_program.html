@@ -39,6 +39,9 @@ title: 発表内容
   <div class="abstraction">
     Software-Defined Data Centerを構成する要素間には、複数の異なる依存関係のレイヤと、そのレイヤ内におけるサービスの提供と利用という関係性が存在する。データセンターの規模を想定した場合に人力でこの関係すべてを網羅的に把握して記述することや、変更に対して管理していくことは困難である。そこで、記述と関係性の導出を分離することでデータセンター内の設備要素に関する記述を実現するDSLの設計を行った。管理者は提供-利用という関係性を並列に列挙するだけにとどめ、機械的に全体の関係性を導くためためのランタイム機構のアーキテクチャを解説する。データセンターの構造には定型的なテンプレートによる記述が可能であるが、部分的に異なる場合がある、その場合に対応するために導入した「テンプレート」と「パッチ」のモデルについても述べる。
   </div>
+  <div class="slide">
+    <a href="./materials/izawa-DC-DSL.pdf">[スライド]</a>
+  </div>
 </div>
 
 <div class="program">
@@ -63,6 +66,9 @@ title: 発表内容
   <div class="abstraction">
     SpringOSはStarBED Projectの開発してきたネットワーク実験支援ソフトウェアである。本発表では、理念の面からSpringOSの設計を説明する。SpringOSの構造は理念から説明すると理解が容易な点も多い。加えて、10年間に得た知見やSpringOS周辺の変化を紹介する。
   </div>
+  <div class="slide">
+    <a href="./materials/chinen-datacenter-workshop-chinen-20141120.pdf">[スライド]</a>
+  </div>
 </div>
 
 
@@ -78,6 +84,9 @@ title: 発表内容
   <div class="abstraction">
     クラウドの普及によって、様々なシステムが寿命が短く変化の多い仮想リソース上への移行しつつある。このような仮想リソースを用いたシステムを効率的に管理するための手法や必要となる技術について、OSSのクラウド管理基盤であるOpenStackとクラウド時代に対応した構成管理ソフトウェアであるAnsibleとの組み合わせで効率化する技法について紹介し、データセンター資源管理に要求される要件を議論する。
   </div>
+  <div class="slide">
+    <a href="./materials/saitou_openstack_and_ansible.pdf">[スライド]</a>
+  </div>
 </div>
 
 <div class="program">
@@ -89,6 +98,9 @@ title: 発表内容
   </div>
   <div class="abstraction">
     仮想マシン(VM)イメージを扱う冗長性の高いブロックストレージインターフェイスの研究を進めている。ストレージのマイグレーションはIaaSにおける重要な課題であるが、本ストレージはディスクイメージを分散ストレージノードの任意の場所に配置できるため、ハイパーバイザが地理分散されているようなVM基盤における対移動性能を提供できる。本発表ではこの研究をOpenStackに統合する際のデザインと現時点での実装を示す。
+  </div>
+  <div class="slide">
+    <a href="./materials/shima-20141120-dcworkshop-ukai.pdf">[スライド]</a>
   </div>
 </div>
 
@@ -102,6 +114,9 @@ title: 発表内容
   <div class="abstraction">
     データセンター内の運用と管理の省力化を目的とした、データセンター設計の高度化に関する研究について紹介する。
   </div>
+  <div class="slide">
+    <a href="./materials/h-nii-workshop_nii.pdf">[スライド]</a>
+  </div>
 </div>
 
 <div class="program">
@@ -113,6 +128,9 @@ title: 発表内容
   </div>
   <div class="abstraction">
     携帯電話やセンサーネットワークの普及に伴い、多数の端末から同一の情報が継続的に発生するケースの拡大が想定される。重複した情報を収集・保存する場合、それらを個別に扱うと帯域/記憶容量などの資源が浪費されるため、我々は情報保存時に重複を排除することで帯域/記憶容量を削減できる重複排除システムの研究開発に取り組んでいる。本発表では、開発中の重複排除システムの基本設計とStarBEDを用いた基本性能評価の結果について報告する
+  </div>
+  <div class="slide">
+    <a href="./materials/konishi-DataCenterWorkShop_141121.pdf">[スライド]</a>
   </div>
 </div>
 
@@ -129,6 +147,9 @@ title: 発表内容
   <div class="abstraction">
     データセンターの運用・制御の高度化や次世代設計にむけてのフィードバックを目的とした、情報収集および処理の機構に関して考察する。収集情報の増加を考慮したデータの蓄積および処理のためのアーキテクチャについて紹介する。
   </div>
+  <div class="slide">
+    <a href="./materials/abe-DCWS2014-11-18.pdf">[スライド]</a>
+  </div>
 </div>
 
 <div class="program">
@@ -140,6 +161,9 @@ title: 発表内容
   </div>
   <div class="abstraction">
     データセンターの効率的な資源活用のために、データセンター内部に存在するセンサーなどのデータを収集し、外部アプリケーションに対して照会APIを提供するシステムの設計について述べる。このシステムには、大量のデータを収集・照会できることと、データを収集してからアプリケーションから参照できるようになるまでの遅延を短くすることという、相反する要求が存在する。限られた計算機資源と開発期間の中で、これらの要求をできる限り満たすための設計について解説する。
+  </div>
+  <div class="slide">
+    <a href="./materials/maeda-dc_query_system.pdf">[スライド]</a>
   </div>
 </div>
 
@@ -165,6 +189,9 @@ title: 発表内容
   <div class="abstraction">
     性質の異なる複数のデータストアに対し、共通の照会APIを提供するシステムの設計と実装について述べる。本システムでは「直近の情報を高速に検索するもの」「長期間の情報を保存するもの」など複数のデータストアに対して、共通のAPIによる照会を提供する。その際の実装上の工夫などについて解説する。
   </div>
+  <div class="slide">
+    <a href="./materials/hara-workshop_yhara.pdf">[スライド]</a>
+  </div>
 </div>
 
 <div class="program">
@@ -176,6 +203,9 @@ title: 発表内容
   </div>
   <div class="abstraction">
     現在，柔軟に解析ロジックの開発が可能で，かつ，コアスケール，水平スケール可能なL7レベルのトラフィック解析プラットフォームSF-TAPの開発を行っている．本報告では，SF-TAPの設計・実装の紹介および，SF-TAPを利用したHTTPトラフィック解析器（Pythonで実装）のデモを行う．
+  </div>
+  <div class="slide">
+    <a href="./materials/takano-dc-sf-tap.pdf">[スライド]</a>
   </div>
 </div>
 
@@ -192,6 +222,9 @@ title: 発表内容
   <div class="abstraction">
     データセンターの管理には、データセンターを構成する大量の要素からの継続的な情報を収集しなければならない。データセンターの拡大や情報量の増加を考慮した情報収集システムの設計と実装について紹介する。
   </div>
+  <div class="slide">
+    <a href="./materials/kiyohara-DC_WorkShop_20141121_kiyohara.pdf">[スライド]</a>
+  </div>
 </div>
 
 <div class="program">
@@ -203,6 +236,9 @@ title: 発表内容
   </div>
   <div class="abstraction">
     Dockerを用いてスケーラブルなデータセンターの情報収集基盤を構築するにあたって必要となる技術について紹介する。主にパブリックリポジトリに依存しないプライベートリポジトリの運用手法と、多数の Docker コンテナを駆動させる際に顕在化するパフォーマンス上の問題の解決手法を述べる。
+  </div>
+  <div class="slide">
+    <a href="./materials/kato-DC_WorkShop_20141121_kato.pdf">[スライド]</a>
   </div>
 </div>
 
