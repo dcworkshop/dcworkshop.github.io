@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: page_201411
 title: プログラム委員
+tags:
+- tag201411
 ---
 
 * 宇夫 陽次朗 (実行委員長)
