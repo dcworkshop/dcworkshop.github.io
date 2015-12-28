@@ -16,7 +16,7 @@
       <div class="trigger">
         {% for page in site.pages %}
           {% for tag in page.tags %}
-            {% if tag == "tag201411" %}
+            {% if tag == "tag-201411" or tag == "tag-common" %}
               {% if page.title %}
               <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
               {% endif %}

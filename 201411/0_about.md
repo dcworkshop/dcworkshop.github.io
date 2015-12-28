@@ -2,7 +2,7 @@
 layout: page_201411
 title: 概要
 tags:
-- tag201411
+- tag-201411
 ---
 
 # 開催案内

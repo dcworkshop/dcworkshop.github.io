@@ -2,7 +2,7 @@
 layout: page_201602
 title: 懇親会について
 tags:
-- tag201602
+- tag-201602
 ---
 
 * 日時

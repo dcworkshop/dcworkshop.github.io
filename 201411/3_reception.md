@@ -2,7 +2,7 @@
 layout: page_201411
 title: 懇親会について
 tags:
-- tag201411
+- tag-201411
 ---
 
 * 日時

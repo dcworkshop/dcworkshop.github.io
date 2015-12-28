@@ -2,7 +2,7 @@
 layout: page_201602
 title: 概要
 tags:
-- tag201602
+- tag-201602
 ---
 
 # 開催案内
