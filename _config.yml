@@ -4,3 +4,5 @@ description: >
 baseurl: ""
 
 markdown: kramdown
+
+exclude: [bundle]
