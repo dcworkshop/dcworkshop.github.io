@@ -14,4 +14,16 @@
   li {
     margin-top: 8px;
   }
+ .title {
+    font-weight: bold;
+    margin: 10px 0 0 0;
+  }
+ .author {
+    padding: 4px;
+    margin: 0 0 0 10px;
+  }
+ .abstract {
+    padding: 4px;
+    margin: 0 0 10px 20px;
+  }
 }
