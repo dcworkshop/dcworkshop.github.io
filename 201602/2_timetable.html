@@ -1,6 +1,6 @@
 ---
 layout: page_201602
-title: タイムテーブル
+title: プログラム
 tags:
 - tag-201602
 ---
@@ -13,74 +13,105 @@ tags:
   </tr>
 
   <tr>
-    <td class="time"></td>
-    <td class="content"></td>
+    <td class="time">10:00</td>
+    <td class="content">開場／受付（松江テルサ: 大会議室)</td>
   </tr>
 
   <tr>
-    <td class="time">xx:xx-xx:xx</td>
-    <td class="content">受付</td>
+    <td class="time">10:20-10:30</td>
+    <td class="content">オープニング／ワークショップ趣旨説明</td>
   </tr>
 
   <tr>
-    <td class="time">xx:xx-xx:xx</td>
-    <td class="content">オープニング</td>
-  </tr>
-
-  <tr>
-    <td class="time">
-      xx:xx-xx:xx
-    </td>
+    <td class="time">10:30-12:00</td>
     <td class="content">
-      <a name="session1" href="#session1">Session 1 / xxxx</a>
+      <a name="session1" href="#session1">Session 1 / IIJによる開発事例セッション</a>(90分)
+      <div class="abstract">
+      2015年度にIIJにおいて実施されたデータセンター向けソフトウェア開発案件についての3件程度の研究発表を行い、それらに関する議論を実施する。
+      </div>
       <ul>
-        <li>title<br>presenter (org)</li>
-        <li>title<br>presenter (org)</li>
-        <li>
-          title<br>presenter (org)<br>
-          <a href="#">[スライド]</a>
-        </li>
+        <li><div class="title">データセンターの自律化に向けたソフトウェアの要件と設計</div>
+        	 <div class="author">宇夫 陽次朗＠IIJ技術研究所, 井澤志充＠株式会社Clwit</div>
+           <div class="abstract">	
+			 PrairieStack（PS）はデータセンターの自律化（プログラム駆動）を目的して設計および実装されたデータセンター抽象化のためのソフトウェアスタックである。本発表ではPSの基本アーキテクチャとスケーラビリティの高いタスク実行環境の実装について述べる</div>
+		 </li>
+        <li><div class="title">データセンターの過去情報のためのサブシステム(PS DataStore)の設計と実装</div>
+        <div class="author">{橋本 将, 原　悠}＠ネットワーク応用計測研究所</div>
+        <div class="abstract">
+		 PrairieStackのサブシステムとして設計および実装されたPSDS(PS Data Store)の内部構造および上位アプリケーションとのAPIについて述べる。また、本サブシステムを用いて実際に松江データセンター内の実証実験データセンターの情報の収集を実施した際のデモンストレーションを実施する。
+        </div></li>
+		<li><div class="title">完全無人化データセンターにおけるユーザーインターフェイス技術</div>
+        <div class="author">新居英明＠IIJ技術研究所</div>
+        <div class="abstract">
+		　小規模で独立性の高いコンテナデータセンターは完全無人運用されるシナリオが検討されている。そのような場合において遠隔運用技術の高度化が必要であることは明らかであるが、実際に全ての運用が遠隔操作だけでは不十分である。現地での作業が発生した際に速やかに現地作業エンジニアに対して内部情報を必要に応じて提示できるユーザーインターフェイスがあれば作業性が向上すると想定している。そのような仮説に基づいて設計、実装をおこなったデータセンター内UIについて紹介する。
+        </div>
         <li>議論 (20分)</li>
       </ul>
     </td>
   </tr>
 
   <tr>
-    <td class="time">xx:xx-xx:xx</td>
-    <td class="content">休憩</td>
+    <td class="time">12:00-13:00</td>
+    <td class="content">昼食／休憩 (60分)</td>
   </tr>
 
   <tr>
-    <td class="time">
-      xx:xx-xx:xx
-    </td>
+    <td class="time">13:00-14:00</td>
     <td class="content">
-      <a name="panel" href="#panel">short panel / xxxx</a>
+      <a name="session2" href="#session2">Session 2 / 規模性の高いソフトウェアの開発</a>（60分）
+      <div class="abstract">
+      パブリッククラウド基盤は高いスケーラビリティを提供可能なコンピューティング基盤として広く利用されつつある。本セッションではパブリッククラウド基盤を用いた開発／運用に関する話題を取り扱う。
+      </div>
       <ul>
-        <li>
-          panelist
-          <ul>
-            <li>panelist1 (org)</li>
-            <li>panelist2 (org)</li>
-            <li>
-              panelist3 (org)
-              <a href="#">[スライド]</a>
-            </li>
-            <li>
-              panelist4 (org)
-              <a href="#">[スライド]</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          司会
-          <ul>
-            <li>panelist5 (org)</li>
-          </ul>
+           <li><div class="title">コンテナ技術による小規模タスクの継続的運用手法</div>
+        	 <div class="author">清原智和＠株式会社Clwit</div>
+           <div class="abstract">	
+           Dockerコンテナはポータビリティの高いコンテナ技術として注目され、様々な周辺環境の整備が進められている。Kubernetes(k8s)はDockerコンテナのオーケストレーション技術を提供するオープンソースソフトウェアである。データセンターの多様性を吸収するためにPrairieStackではDockerコンテナを用いた「小規模タスク」を大量にかつ継続的に実行し続けるアーキテクチャを採用しているが、その実現に向けて発生した問題および解決手法についての知見を共有する。
+           </div>
+		 </li>
+        <li><div class="title">cloudコンテナ基盤(GKE/Kubernetes)を用いた実運用システムの開発の現実</div>
+        <div class="author">加藤真透＠ファランクスウェア</div>
+        <div class="abstract">
+		 PrairieStackのプロトタイプ実装はクラウド基盤を活用して行われた。
+		 本セッションでは、オープンソースソフトウェアとして公開されているKubernetes(k8s)およびk8sを含むパブリッククラウド基盤であるGoogle Container Engine(GKE)、GoogleのパブリックIaaS基盤であるGoogle Compute Engine(GCE)を用いてプロトタイピングをおこなったPrairieStackのサブシステムについて紹介する。またパブリッククラウド基盤およびオープンソースソフトウェアをベースとした継続的開発の経験を共有する。
+        </div></li>
+        <li>議論 (20分)</li>
       </ul>
     </td>
+  </tr>
+  <tr>
+    <td class="time">14:00-15:20</td>
+    <td class="content">
+    	 <a name="mdp" href="#mdp">IIJ松江データセンターパーク見学</a>（80分）
+       <ul>
+           <li><div class="title">14:00-14:20: 松江データセンターパーク概略</div>
+        	 <div class="author"></div>
+        	 </li>
+    		 <li>14:20-14:45: IIJ松江データセンターパークへ移動</li>
+	 	    <li>14:45-15:20: IIJ松江データセンターパーク見学および解説</li>
+     	</ul>
+    </td>
+  </tr>
+  <tr>
+    <td class="time">15:20-15:30</td>
+    <td class="content">休憩(10分)</td>
+  </tr>
+
+  <tr>
+    <td class="time">15:30-16:45</td>
+    <td class="content">
+      <a name="session3" href="#session3">Session 3 / デモンストレーション</a>（75分）
+      <div class="abstract">
+      IIJ技術研究所が構築および運用している研究開発用コンテナデータセンター(coIZmoSD)を用いて開発を進めているデータセンターソフトウェア基盤およびデータセンター向けユーザーインターフェイスの実機デモンストレーションおよびその周辺技術の解説し、今後に向けた議論を実施する</div>
+ 	　 <ul>
+		 <li>実機でのデモンストレーションおよび技術解説</li>
+        <li>議論 (30分)</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td class="time">16:45-17:00</td>
+    <td class="content">クロージング（1日目）</td>
   </tr>
 </table>
 
@@ -91,46 +122,90 @@ tags:
   <tr>
     <th class="time">時間</th><th class="content">内容</th>
   </tr>
+  
+  <tr>
+    <td class="time">9:00</td>
+    <td class="content">開場／受付（松江テルサ: 大会議室)</td>
+  </tr>
 
   <tr>
-    <td class="time">
-      xx:xx-xx:xx
-    </td>
+    <td class="time">9:30-10:00</td>
+    <td class="content">オープニング(２日目）</td>
+  </tr>
+
+  <tr>
+    <td class="time">10:00-10:45</td>
     <td class="content">
-      <a name="session2" href="#session2">Session 2 / xxxx</a>
+      <a name="keynote1" href="#keynote1">招待講演</a>
       <ul>
-        <li>title<br>presenter (org)</li>
-        <li>title<br>presenter (org)</li>
-        <li>
-          title<br>presenter (org)<br>
-          <a href="#">[スライド]</a>
-        </li>
-        <li>議論 (20分)</li>
+        <li>調整中</li>
+      </ul>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td class="time">11:00-12:30</td>
+    <td class="content">
+      <a name="session4" href="#session4">Session 4 / 研究発表および議論</a>(90分)
+      <div class="abstract">
+		データセンターワークショップに関連する研究発表枠（募集中）
+      </div>
+      <ul>
+        <li><div class="title">研究発表１</div>
+        	 <div class="author">発表者１</div>
+           <div class="abstract">	
+			　概略
+			 </div>
+		 </li>
+        <li><div class="title">研究発表２</div>
+        	 <div class="author">発表者２</div>
+           <div class="abstract">	
+			　概略
+			 </div>
+		 </li>
+        <li><div class="title">研究発表３</div>
+        	 <div class="author">発表者３</div>
+           <div class="abstract">	
+			　概略
+			 </div>
+		 </li>
       </ul>
     </td>
   </tr>
 
   <tr>
-    <td class="time">xx:xx-xx:xx</td>
+    <td class="time">12:30-13:30</td>
     <td class="content">ランチ</td>
   </tr>
 
   <tr>
-    <td class="time">xx:xx-xx:xx</td>
+    <td class="time">13:30-14:15</td>
+    <td class="content">
+      <a name="keynote2" href="#keynote2">講演</a>
+      <ul>
+        <li><div class="title">Rubyによるデータ解析</div>
+        	 <div class="author">前田修吾＠ネットワーク応用通信研究所</div>
+           <div class="abstract">	
+			Rubyは、Webアプリケーションの領域を中心に利用が広がっているが、データ解析の分野ではライバルであるPythonに大きく遅れを取っている。本講演では、Rubyによるデータ解析の現状と今後の発展についての展望を述べる。
+			 </div>
+		 </li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="time">14:15-14:30</td>
     <td class="content">休憩</td>
   </tr>
 
   <tr>
-    <td class="time">xx:xx-xx:xx</td>
+    <td class="time">14:30-15:30</td>
     <td class="content">
-      wrap up - closing
-    </td>
+      <a name="wrapup" href="#wrapup">今後のソフトウェア開発に関する議論とまとめ</a>(60分)
+      <div class="abstract">
+		発表および議論を受けた議論（構成検討中）とまとめ
+      </div>
   </tr>
 
-  <tr>
-    <td class="time">xx:xx</td>
-    <td class="content">
-      room close
-    </td>
-  </tr>
 </table>
