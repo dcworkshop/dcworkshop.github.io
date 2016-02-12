@@ -13,7 +13,4 @@ tags:
     * 住所 : 〒690-0006 島根県松江市伊勢宮町555
     * 電話番号 : 0852-21-1525
     * ホームページ : [http://www.notsuryokan.jp/](http://www.notsuryokan.jp/)
-
-<!--
-    * 金額 : TBA
--->
+    * 金額 : 5000円
